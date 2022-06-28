@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+	reactStrictMode: true,
+	images: {
+		domains: ["flagcdn.com"],
+	},
+	i18n: {
+		locales: ["en", "fr", "nl"],
+		defaultLocale: "en",
+	},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
