@@ -13,7 +13,7 @@ const Footer = () => {
 			<div className="container mx-auto border-t border-lightgray px-4">
 				<div className="lg:grid lg:grid-cols-2 flex flex-col p-8">
 					<div
-						className="flex flex-col lg:flex-row border-b border-lightgray lg:p-6 justify-left lg:justify-around items-left 
+						className="flex flex-col lg:flex-row border-b lg:border-none border-lightgray lg:p-6 justify-left lg:justify-around items-left 
 					lg:items-center pt-16 md:flex-row md:justify-around">
 						<div className="mb-4">
 							<Image

@@ -8,6 +8,7 @@ const nextConfig = {
 		locales: ["en", "fr", "nl"],
 		defaultLocale: "en",
 	},
+	swcMinify: false,
 };
 
 module.exports = nextConfig;
