@@ -3,7 +3,7 @@ import Product from "../Product";
 
 const EcosystemSection = () => {
 	return (
-		<section className="py-14 mx-auto">
+		<section className="py-14 mx-auto" id="Products">
 			<div className="container flex items-center justify-center flex-col gap-3">
 				<h2 className="text-primary text-4xl">
 					Our Products & Ecosystem

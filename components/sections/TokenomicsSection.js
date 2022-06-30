@@ -4,7 +4,7 @@ import { GrCheckbox } from "react-icons/gr";
 
 const TokenomicsSection = () => {
 	return (
-		<section className="container mx-auto py-20">
+		<section className="container mx-auto py-20" id="Tokenomics">
 			<div className="flex items-center justify-center gap-8 md:flex-row flex-col">
 				<div className="xl:w-[500px] lg:w-[400px] w-[300px]">
 					<Chart />
@@ -48,19 +48,22 @@ const TokenomicsSection = () => {
 					<div className="flex pt-10 flex-col items-start ">
 						<p className="flex items-center justify-around gap-2">
 							{" "}
-							<GrCheckbox /> 35% Presale
+							<GrCheckbox className="bg-[#FF6384]" /> 35% Presale
 						</p>
 						<p className="flex items-center justify-around gap-2">
 							{" "}
-							<GrCheckbox /> 35% Liquidity
+							<GrCheckbox className="bg-[#36A2EB]" /> 35%
+							Liquidity
 						</p>
 						<p className="flex items-center justify-around gap-2">
 							{" "}
-							<GrCheckbox /> 15% Team & Development
+							<GrCheckbox className="bg-[#FFCE56]" /> 15% Team &
+							Development
 						</p>
 						<p className="flex items-center justify-around gap-2">
 							{" "}
-							<GrCheckbox /> 15% Founders Board
+							<GrCheckbox className="bg-[#A7F432]" /> 15% Founders
+							Board
 						</p>
 					</div>
 				</div>

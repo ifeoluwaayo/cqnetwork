@@ -7,7 +7,7 @@ import Typical from "react-typical";
 
 const HeroSection = () => {
 	return (
-		<section className="bg-primary bg-opacity-5 py-10">
+		<section className="bg-primary bg-opacity-5 py-10" id="Home">
 			<div className="grid lg:grid-cols-2 container mx-auto">
 				<div className="flex items-center">
 					<div>
@@ -22,7 +22,7 @@ const HeroSection = () => {
 						</h1>
 						<h1
 							className="text-5xl font-bold leading-normal bg-gradient-to-r bg-clip-text  
-							text-transparent from-indigo-500 via-purple-500 to-indigo-500
+							text-transparent from-[#013220] via-[#D0F0C0] to-primary
             				animate-text">
 							{" "}
 							<Typical

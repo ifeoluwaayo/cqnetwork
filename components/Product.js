@@ -2,8 +2,8 @@ import Image from "next/image";
 import React from "react";
 import { GrCheckbox } from "react-icons/gr";
 import Buy from "../assets/illustrations/buy.png";
-import Bank from "../assets/illustrations/banks.png";
-import Pay from "../assets/illustrations/tradingtools.png";
+import Bank from "../assets/illustrations/bank.png";
+import Pay from "../assets/illustrations/hand.png";
 import PrimaryButton from "../buttons/PrimaryButton";
 
 const Product = () => {
@@ -79,6 +79,10 @@ const Product = () => {
 							visa/mastercard purchases protocol.
 						</p>
 						<p className="font-medium flex items-center justify-center gap-3">
+							<GrCheckbox className="w-4" /> CQ pay visa/master
+							cards for stakeholders
+						</p>
+						<p className="font-medium flex items-center justify-center gap-3">
 							<GrCheckbox className="w-4" /> CQ pay merchant
 							support world wide online and offline
 						</p>
@@ -112,11 +116,11 @@ const Product = () => {
 						<span className="text-primary">CQB Crypto Banking</span>
 						<span className=" font-bold text-[13px] -mt-2">
 							{" "}
-							* Extremely fast and no service fees.
+							* Coming at 1 billion dollar MCap..
 						</span>
 					</h3>
 					<div className="flex flex-col items-start">
-						<p className=" font-medium flex items-center justify-center gap-3">
+						{/* <p className=" font-medium flex items-center justify-center gap-3">
 							<GrCheckbox className="w-4" /> You own and take part
 							in the bank affairs through the DAO
 						</p>
@@ -124,14 +128,17 @@ const Product = () => {
 							<GrCheckbox className="w-4" /> Low gas fee built in
 							BRC-20 blockchain
 						</p>
-						<p className="font-medium flex items-center justify-center gap-3">
-							<GrCheckbox className="w-4" /> CQ pay visa/master
-							cards for stakeholders
-						</p>
+						
 						<p className="font-medium flex items-center justify-center gap-3">
 							<GrCheckbox className="w-4" /> Other surprises after
 							launch
-						</p>
+						</p> */}
+						<PrimaryButton
+							className="hover:bg-gray hover:text-white text-white bg-gray
+                                px-4 py-2 rounded-lg border-gray border shadow-lg 
+                                transition-colors duration-300 mt-8 cursor-not-allowed">
+							Coming soon
+						</PrimaryButton>
 					</div>
 				</div>
 				<div className="hover:scale-105 transition-all duration-300 ease-in-out">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "../assets/logo.webp";
+import Logo from "../assets/illustrations/logo-footer.png";
 import { FaDiscord } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
@@ -25,22 +25,30 @@ const Footer = () => {
 						</div>
 						<ul>
 							<li className="mb-4">
-								<a href="" className="text-gray text-[14px]">
+								<a
+									href=""
+									className="text-gray text-[14px] hover:text-primary hover:font-bold">
 									Whitepaper
 								</a>
 							</li>
 							<li className="mb-4">
-								<a href="" className="text-gray text-[14px]">
+								<a
+									href=""
+									className="text-gray text-[14px] hover:text-primary hover:font-bold">
 									About Us
 								</a>
 							</li>
 							<li className="mb-4">
-								<a href="" className="text-gray text-[14px]">
+								<a
+									href=""
+									className="text-gray text-[14px] hover:text-primary hover:font-bold">
 									Buy CQ
 								</a>
 							</li>
 							<li className="mb-4">
-								<a href="" className="text-gray text-[14px]">
+								<a
+									href=""
+									className="text-gray text-[14px] hover:text-primary hover:font-bold">
 									Our Products
 								</a>
 							</li>
@@ -51,27 +59,37 @@ const Footer = () => {
 					lg:border-lightgray justify-left items-left pt-4 lg:pt-0 md:flex-row md:justify-around">
 						<ul className="justify-start items-left flex flex-col">
 							<li className="mb-4">
-								<a href="" className="text-gray text-[14px]">
+								<a
+									href=""
+									className="text-gray text-[14px] hover:text-primary hover:font-bold">
 									Career
 								</a>
 							</li>
 							<li className="mb-4">
-								<a href="" className="text-gray text-[14px]">
+								<a
+									href=""
+									className="text-gray text-[14px] hover:text-primary hover:font-bold">
 									Blog
 								</a>
 							</li>
 							<li className="mb-4">
-								<a href="" className="text-gray text-[14px]">
+								<a
+									href=""
+									className="text-gray text-[14px] hover:text-primary hover:font-bold">
 									Security
 								</a>
 							</li>
 							<li className="mb-4">
-								<a href="" className="text-gray text-[14px]">
+								<a
+									href=""
+									className="text-gray text-[14px] hover:text-primary hover:font-bold">
 									Contact Us
 								</a>
 							</li>
 							<li className="mb-4">
-								<a href="" className="text-gray text-[14px]">
+								<a
+									href=""
+									className="text-gray text-[14px] hover:text-primary hover:font-bold">
 									Help Center
 								</a>
 							</li>

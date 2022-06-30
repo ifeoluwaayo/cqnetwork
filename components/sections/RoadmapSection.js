@@ -8,7 +8,9 @@ const RoadmapSection = () => {
 		? "HORIZONTAL"
 		: "VERTICAL_ALTERNATING";
 	return (
-		<section className="container py-10 mx-auto lg:flex flex-col items-center gap-4 justify-center text-center">
+		<section
+			className="container py-10 mx-auto lg:flex flex-col items-center gap-4 justify-center text-center"
+			id="Roadmap">
 			<h2 className="text-4xl text-bold text-primary">Roadmap</h2>
 			<div className="lg:w-[85%] xl:w-[70%] pt-10">
 				<Chrono items={data} mode={mode}>
