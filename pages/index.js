@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Layout from "../components/Layout";
 import { useTranslations } from "use-intl";
 import HeroSection from "../components/sections/HeroSection";
@@ -10,6 +11,10 @@ import Head from "next/head";
 
 export default function Home() {
 	const t = useTranslations("welcome");
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 
 	return (
 		<Layout className="">
