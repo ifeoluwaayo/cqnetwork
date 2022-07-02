@@ -19,8 +19,8 @@ const Footer = () => {
 							<Image
 								src={Logo}
 								alt="CQ Network"
-								width={230}
-								height={80}
+								width={200}
+								height={72}
 							/>
 						</div>
 						<ul>

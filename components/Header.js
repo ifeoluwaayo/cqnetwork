@@ -135,12 +135,7 @@ const Header = () => {
 			{/* Mobile */}
 			<div className="py-4 xl:hidden flex items-center justify-between mx-12 top-0">
 				<div className="flex mr-6">
-					<Image
-						src={MinLogo}
-						width={90}
-						height={75}
-						alt="CQNetwork"
-					/>
+					<Image src={Logo} width={200} height={65} alt="CQNetwork" />
 				</div>
 				<div className="flex items-center justify-end gap-3">
 					<PrimaryButton
