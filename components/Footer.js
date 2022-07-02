@@ -9,7 +9,7 @@ import Bitgert from "../assets/bitgert.png";
 
 const Footer = () => {
 	return (
-		<footer className="w-full flex flex-col">
+		<footer className="w-full flex flex-col" id="Footer">
 			<div className="container mx-auto border-t border-lightgray px-4">
 				<div className="lg:grid lg:grid-cols-2 flex flex-col p-8">
 					<div

@@ -3,7 +3,6 @@ import { NextIntlProvider } from "next-intl";
 import { useEffect, useState } from "react";
 import Script from "next/script";
 import "../styles/globals.css";
-import { AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps }) {
 	const [showing, setShowing] = useState(false);
@@ -26,9 +25,7 @@ function MyApp({ Component, pageProps }) {
 					strategy="beforeInteractive"
 				/>
 				<NextIntlProvider messages={pageProps.messages}>
-					<AnimatePresence exitBeforeEnter>
-						<Component {...pageProps} />
-					</AnimatePresence>
+					<Component {...pageProps} />
 				</NextIntlProvider>
 			</>
 		);
