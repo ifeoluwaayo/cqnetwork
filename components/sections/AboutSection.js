@@ -12,21 +12,18 @@ const AboutSection = () => {
 			<div className="flex flex-col container rounded-2xl bg-white p-8 shadow-xl gap-6">
 				<div className="flex items-center flex-col justify-center ">
 					<h3 className="text-3xl font-bold text-center text-primary">
-						CQ Network a Decentralised Network of business
-						organizations.
+						CQ Network a Decentralized Network of Business
+						Organizations.
 					</h3>
 					<p className="text-center p-4 text-[14px] text-gray">
-						CQ Network is a revolutionary - Decentralised network of
-						business organisations built on Bitgert blockchain. Low
+						CQ Network is a revolutionary - Decentralized network of
+						business organizations built on Bitgert blockchain. Low
 						gas fees, low service provider fees, zero interest
 						trading loan, zero trading fees, crypto bank backed by
 						stable coin, crypto merchants, entrepreneur fund
 						raising, investment opportunities, career development
 						and much more makes CQ network outstanding from the
 						entire crypto global market.{" "}
-						<span className={`${hidden ? "hidden" : "flex"}`}>
-							hidden text
-						</span>
 						{hidden ? (
 							<p
 								className="text-green cursor-pointer flex justify-end items-center"

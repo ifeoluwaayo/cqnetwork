@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import globoCrypto from "../../assets/illustrations/globe.png";
+import globoCrypto from "../../assets/illustrations/qscd.png";
 import PrimaryButton from "../../buttons/PrimaryButton";
 import { FaAngleRight } from "react-icons/fa";
 import Typical from "react-typical";

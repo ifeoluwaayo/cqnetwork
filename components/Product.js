@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { GrCheckbox } from "react-icons/gr";
 import Buy from "../assets/illustrations/buy.png";
-import Bank from "../assets/illustrations/bank.png";
+import Bank from "../assets/illustrations/banknew.png";
 import Pay from "../assets/illustrations/cpay.png";
 import PrimaryButton from "../buttons/PrimaryButton";
 
@@ -41,7 +41,7 @@ const Product = () => {
 							Receive
 						</p>
 						<p className="font-medium flex items-center justify-center gap-3">
-							<GrCheckbox className="w-4" /> Hold CQNC and ear
+							<GrCheckbox className="w-4" /> Hold CQNC and earn
 							rewards (no staking required)
 						</p>
 						<p className="font-medium flex items-center justify-center gap-3">
@@ -79,7 +79,7 @@ const Product = () => {
 				<div className="flex flex-col items-center justify-center">
 					<h3 className="md:text-4xl text-3xl pt-4 flex  items-center justify-center flex-col">
 						Buy, Trade and Earn on the{" "}
-						<span className="text-primary">CQ Exchange</span>
+						<span className="text-primary">CQD Exchange</span>
 						<span className=" font-bold text-[13px] -mt-2">
 							{" "}
 							* Zero trading Fees
@@ -132,19 +132,6 @@ const Product = () => {
 						</span>
 					</h3>
 					<div className="flex flex-col items-start">
-						{/* <p className=" font-medium flex items-center justify-center gap-3">
-							<GrCheckbox className="w-4" /> You own and take part
-							in the bank affairs through the DAO
-						</p>
-						<p className="font-medium flex items-center justify-center gap-3">
-							<GrCheckbox className="w-4" /> Low gas fee built in
-							BRC-20 blockchain
-						</p>
-						
-						<p className="font-medium flex items-center justify-center gap-3">
-							<GrCheckbox className="w-4" /> Other surprises after
-							launch
-						</p> */}
 						<PrimaryButton
 							className="hover:bg-gray hover:text-white text-white bg-gray
                                 px-4 py-2 rounded-lg border-gray border shadow-lg 

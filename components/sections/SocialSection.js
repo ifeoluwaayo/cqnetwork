@@ -19,7 +19,8 @@ const SocialSection = () => {
 						Get connected with us{" "}
 					</h2>
 					<p className="text-center text-sm md:text-lg text-gray-600 ">
-						Wanna know more and be a part of the Crypto Revolution?
+						Want to know more and be a part of the Crypto
+						Revolution?
 					</p>
 					<p className="text-center text-sm md:text-lg text-gray-600 ">
 						Join the community and get connected with us.
