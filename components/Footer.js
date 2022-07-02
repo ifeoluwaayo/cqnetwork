@@ -6,6 +6,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import Bitgert from "../assets/bitgert.png";
+import Link from "next/link";
 
 const Footer = () => {
 	return (
@@ -15,13 +16,17 @@ const Footer = () => {
 					<div
 						className="flex flex-col lg:flex-row border-b lg:border-none border-lightgray lg:p-6 justify-left lg:justify-around items-left 
 					lg:items-center pt-16 md:flex-row md:justify-around">
-						<div className="mb-4">
-							<Image
-								src={Logo}
-								alt="CQ Network"
-								width={200}
-								height={72}
-							/>
+						<div
+							className="mb- hover:cursor-pointer"
+							onClick={() => window.scrollTo(0, 0)}>
+							<Link href="">
+								<Image
+									src={Logo}
+									alt="CQ Network"
+									width={200}
+									height={72}
+								/>
+							</Link>
 						</div>
 						<ul>
 							<li className="mb-4">

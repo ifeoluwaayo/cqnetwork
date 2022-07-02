@@ -8,7 +8,7 @@ const RoadmapSection = () => {
 		? "VERTICAL"
 		: "VERTICAL_ALTERNATING";
 
-	const item = useMediaQuery({ query: "(max-width: 767px)" }) ? [] : data;
+	const item = useMediaQuery({ query: "(max-width: 767px)" }) ? data : data;
 	return (
 		<section
 			className="container py-10 lg:flex flex-col items-center h-[70%] gap-4 justify-center text-center"
@@ -18,9 +18,9 @@ const RoadmapSection = () => {
 				<div className="lg:w-[85%] xl:w-[70%] pt-10 flex-1 items-center justify-center">
 					<Chrono items={item} mode={mode}>
 						<div className="p-4">
-							<h2 className="text-2xl text-primary md:hidden mb-2">
+							{/* <h2 className="text-2xl text-primary md:hidden mb-2">
 								Q1 2022
-							</h2>
+							</h2> */}
 							<ul className="flex flex-col items-start justify-start left-0">
 								<li>- CQ network platform build for presale</li>
 								<li>- Contract deployment</li>
@@ -29,9 +29,9 @@ const RoadmapSection = () => {
 							</ul>
 						</div>
 						<div className="w-content">
-							<h2 className="text-2xl text-primary md:hidden mb-2">
+							{/* <h2 className="text-2xl text-primary md:hidden mb-2">
 								Q1 2022
-							</h2>
+							</h2> */}
 							<ul>
 								<li>
 									- CQ Network licensing and corporate office
@@ -52,9 +52,9 @@ const RoadmapSection = () => {
 							</ul>
 						</div>
 						<div className="w-content">
-							<h2 className="text-2xl text-primary md:hidden mb-2">
+							{/* <h2 className="text-2xl text-primary md:hidden mb-2">
 								Q1 2022
-							</h2>
+							</h2> */}
 							<ul>
 								<li>- Airdrop to community.(SURPRISE)</li>
 								<li>
@@ -72,9 +72,9 @@ const RoadmapSection = () => {
 							</ul>
 						</div>
 						<div className="w-content">
-							<h2 className="text-2xl text-primary md:hidden mb-2">
+							{/* <h2 className="text-2xl text-primary md:hidden mb-2">
 								Q1 2022
-							</h2>
+							</h2> */}
 							<ul>
 								<li>
 									- CQ pay payment services llc (buy and sell
@@ -92,9 +92,9 @@ const RoadmapSection = () => {
 							</ul>
 						</div>
 						<div className="w-content">
-							<h2 className="text-2xl text-primary md:hidden mb-2">
+							{/* <h2 className="text-2xl text-primary md:hidden mb-2">
 								Q1 2022
-							</h2>
+							</h2> */}
 							<ul>
 								<li>
 									- CQD - Exchange website version beta launch
@@ -113,9 +113,9 @@ const RoadmapSection = () => {
 							</ul>
 						</div>
 						<div className="w-content">
-							<h2 className="text-2xl text-primary md:hidden mb-2">
+							{/* <h2 className="text-2xl text-primary md:hidden mb-2">
 								Q1 2022
-							</h2>
+							</h2> */}
 							<ul>
 								<li>
 									- CQD HI integrated trading bots
@@ -132,9 +132,9 @@ const RoadmapSection = () => {
 							</ul>
 						</div>
 						<div className="w-content">
-							<h2 className="text-2xl text-primary md:hidden mb-2">
+							{/* <h2 className="text-2xl text-primary md:hidden mb-2">
 								Q1 2022
-							</h2>
+							</h2> */}
 							<ul>
 								<li>- CQB Bank</li>
 								<li>- QBD stable coin launch</li>
