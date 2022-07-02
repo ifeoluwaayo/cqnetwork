@@ -6,12 +6,18 @@ import TokenomicsSection from "../components/sections/TokenomicsSection";
 import EcosystemSection from "../components/sections/EcosystemSection";
 import RoadmapSection from "../components/sections/RoadmapSection";
 import SocialSection from "../components/sections/SocialSection";
+import Head from "next/head";
 
 export default function Home() {
 	const t = useTranslations("welcome");
 
 	return (
 		<Layout className="">
+			<Head>
+				<title>CQ Network</title>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
+
 			<HeroSection />
 			<AboutSection />
 			<TokenomicsSection />

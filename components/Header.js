@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import Logo from "../assets/illustrations/logo-header.png";
+import Logo from "../assets/illustrations/min-logo.png";
 import MinLogo from "../assets/illustrations/mobile-logo.png";
 import PrimaryButton from "../buttons/PrimaryButton";
 import { GlobeIcon } from "../assets/Globe";
@@ -48,7 +48,7 @@ const Header = () => {
 			<div
 				className={`py-4 hidden xl:flex items-center justify-between mx-12 top-0`}>
 				<div className="flex mr-6">
-					<Image src={Logo} width={230} height={70} alt="CQNetwork" />
+					<Image src={Logo} width={200} height={65} alt="CQNetwork" />
 				</div>
 
 				<div className="flex items-center justify-between">
@@ -127,7 +127,7 @@ const Header = () => {
 					<PrimaryButton
 						className="hover:bg-white hover:text-primary text-white bg-primary px-4 py-2 rounded-lg 
 				border-primary border shadow-lg transition-colors duration-300">
-						Buy CQ
+						Buy CQNC
 					</PrimaryButton>
 				</div>
 			</div>
@@ -186,7 +186,7 @@ const Header = () => {
 							<PrimaryButton
 								className="hover:bg-primary hover:text-white text-primary px-4 py-2 rounded-lg 
 				border-primary border shadow-lg transition-colors duration-300">
-								Buy CQ
+								Buy CQNC
 							</PrimaryButton>
 						</div>
 						<div className="mb-4">

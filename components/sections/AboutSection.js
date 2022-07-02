@@ -6,7 +6,7 @@ import CQNC from "../../assets/illustrations/CQNC.png";
 import { BsChevronRight } from "react-icons/bs";
 
 const AboutSection = () => {
-	const [hidden, setHidden] = useState(false);
+	const [hidden, setHidden] = useState(true);
 	return (
 		<section className="mt-8 container" id="About">
 			<div className="flex flex-col container rounded-2xl bg-white p-8 shadow-xl gap-6">
@@ -49,7 +49,7 @@ const AboutSection = () => {
 					bg-primary bg-opacity-5 hover:scale-90 transition-all duration-300 ease-in-out">
 						<div className="group-hover:animate-bounce">
 							<Image
-								src={CQB}
+								src={CQNC}
 								alt="CQNetwork"
 								width="100"
 								height="100"
@@ -79,7 +79,7 @@ const AboutSection = () => {
 							CQD
 						</h3>
 						<p className="text-[14px] text-gray">
-							The Exchange Token of the CQ Network
+							The Exchange of the CQ Network
 						</p>
 					</div>
 					<div
@@ -87,7 +87,7 @@ const AboutSection = () => {
 					bg-primary bg-opacity-5 hover:scale-90 transition-all duration-300 ease-in-out">
 						<div className="group-hover:animate-bounce">
 							<Image
-								src={CQNC}
+								src={CQB}
 								alt="CQNetwork"
 								width="100"
 								height="100"
@@ -95,7 +95,7 @@ const AboutSection = () => {
 							/>
 						</div>
 						<h3 className="text-2xl font-bold text-center text-primary">
-							CQB
+							CQBD
 						</h3>
 						<p className="text-[14px] text-gray">
 							The stable coin of the CQ Network

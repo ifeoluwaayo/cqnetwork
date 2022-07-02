@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "../assets/illustrations/logo-footer.png";
+import Logo from "../assets/illustrations/min-logo.png";
 import { FaDiscord } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
@@ -19,8 +19,8 @@ const Footer = () => {
 							<Image
 								src={Logo}
 								alt="CQ Network"
-								width={290}
-								height={120}
+								width={230}
+								height={80}
 							/>
 						</div>
 						<ul>

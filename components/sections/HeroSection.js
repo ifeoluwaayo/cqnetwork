@@ -7,7 +7,9 @@ import Typical from "react-typical";
 
 const HeroSection = () => {
 	return (
-		<section className="bg-primary bg-opacity-5 py-10" id="Home">
+		<section
+			className="bg-primary bg-opacity-5 py-10 md:h-auto h-[80vh]"
+			id="Home">
 			<div className="grid lg:grid-cols-2 container mx-auto">
 				<div className="flex items-center">
 					<div>
@@ -70,15 +72,21 @@ const HeroSection = () => {
 								className="hover:bg-white hover:text-primary text-white bg-primary 
                                 px-4 py-2 rounded-lg border-primary border shadow-lg 
                                 transition-colors duration-300">
-								Buy CQ
+								Buy CQNC
 							</PrimaryButton>
 
-							<div
-								className="flex items-center justify-center hover:text-primary hover:border-b-2 
-                            border-primary hover:text-bold cursor-pointer hover:animate-pulse">
-								Whitepaper
-								<FaAngleRight />
-							</div>
+							<a
+								href="/whitepaper.pdf"
+								download="CQNC Whitepaper"
+								target="_blank"
+								rel="noopener noreferrer">
+								<div
+									className="flex items-center justify-center hover:text-primary hover:border-b-2
+							border-primary hover:text-bold cursor-pointer hover:animate-pulse">
+									Whitepaper
+									<FaAngleRight />
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
