@@ -23,7 +23,8 @@ const Footer = () => {
 		setShowModal(true);
 	}
 
-	const submit = () => {
+	const submit = (e) => {
+		e.preventDefault();
 		// Submit Functionality
 		closeModal();
 	};
@@ -223,39 +224,43 @@ const Footer = () => {
 										Contact Us
 									</Dialog.Title>
 									<div className="mt-6">
-										<form className="flex items-start justify-center flex-col gap-4">
-											<input
-												className="flex rounded-lg focus:shadow-md bg-slate-100 outline-none border-0 py-3 px-4 w-full flex-1"
-												placeholder="Name"
-												type="text"
-											/>
-											<input
-												className="flex rounded-lg focus:shadow-md bg-slate-100 outline-none border-0 py-3 px-4 w-full flex-1"
-												placeholder="Email"
-												type="text"
-											/>
-											<textarea
-												className="flex rounded-lg focus:shadow-md bg-slate-100 outline-none border-0 py-3 px-4 w-full flex-1"
-												placeholder="Message"
-												type="text"
-											/>
+										<form netlify name="contact">
+											<div className="flex items-start justify-center flex-col gap-4">
+												<input
+													className="flex rounded-lg focus:shadow-md bg-slate-100 outline-none border-0 py-3 px-4 w-full flex-1"
+													placeholder="Name"
+													type="text"
+													name="name"
+												/>
+												<input
+													className="flex rounded-lg focus:shadow-md bg-slate-100 outline-none border-0 py-3 px-4 w-full flex-1"
+													placeholder="Email"
+													type="text"
+													name="email"
+												/>
+												<textarea
+													className="flex rounded-lg focus:shadow-md bg-slate-100 outline-none border-0 py-3 px-4 w-full flex-1"
+													placeholder="Message"
+													type="text"
+													name="message"
+												/>
+											</div>
+											<div className="mt-8 flex items-center justify-around">
+												<button
+													className="inline-flex justify-center rounded-md border border-transparent bg-primary px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+													onClick={submit}
+													type="submit">
+													Submit
+												</button>
+
+												<button
+													type="button"
+													className="inline-flex items-center justify-center rounded-md border border-transparent bg-gray px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+													onClick={closeModal}>
+													Close{" "}
+												</button>
+											</div>
 										</form>
-									</div>
-
-									<div className="mt-8 flex items-center justify-around">
-										<button
-											type="button"
-											className="inline-flex justify-center rounded-md border border-transparent bg-primary px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-											onClick={submit}>
-											Submit
-										</button>
-
-										<button
-											type="button"
-											className="inline-flex items-center justify-center rounded-md border border-transparent bg-gray px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-											onClick={closeModal}>
-											Close{" "}
-										</button>
 									</div>
 								</Dialog.Panel>
 							</Transition.Child>
