@@ -1,5 +1,5 @@
 export default function Custom404() {
-	return null;
+	return <div>Redirecting...</div>;
 }
 
 export const getStaticProps = () => {
