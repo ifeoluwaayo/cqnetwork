@@ -1,7 +1,7 @@
 import { useTranslations } from "use-intl";
 
 export default function Custom404() {
-	const { t } = useTranslations();
+	const { t } = useTranslations("404");
 
 	return <div>Redirecting...</div>;
 }

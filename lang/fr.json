@@ -1,3 +1,4 @@
 {
-    "welcome": {"welcome": "Bienvenue sur NEXT.js"}
+    "welcome": {"welcome": "Bienvenue sur NEXT.js"},
+    "404": {"welcome": "Welcome to NEXT.js"}
 }
