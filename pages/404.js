@@ -1,8 +1,7 @@
-import { useTranslation } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslations } from "use-intl";
 
 export default function Custom404() {
-	const { t } = useTranslation();
+	const { t } = useTranslations();
 
 	return <div>Redirecting...</div>;
 }
@@ -10,7 +9,7 @@ export default function Custom404() {
 export const getStaticProps = async ({ locale }) => {
 	return {
 		props: {
-			...(await serverSideTranslations(locale ?? "en", ["common"])),
+			messages: require(`../lang/${locale}.json`),
 		},
 		redirect: {
 			destination: "/",
