@@ -133,28 +133,28 @@ const Footer = () => {
 							<ul className="flex gap-4">
 								<li className="mb-4">
 									<a
-										href=""
+										href="https://discord.com/invite/TRvJvgfMbb"
 										className="text-primary text-[25px]">
 										<FaDiscord />
 									</a>
 								</li>
 								<li className="mb-4">
 									<a
-										href=""
+										href="https://www.instagram.com/_cqnetwork_/"
 										className="text-primary text-[25px]">
 										<AiFillInstagram />
 									</a>
 								</li>
 								<li className="mb-4">
 									<a
-										href=""
+										href="https://t.me/CQNCOFFICIAL"
 										className="text-primary text-[25px]">
 										<FaTelegramPlane />
 									</a>
 								</li>
 								<li className="mb-4">
 									<a
-										href=""
+										href="https://twitter.com/_cqnetwork_"
 										className="text-primary text-[25px]">
 										<AiOutlineTwitter />
 									</a>

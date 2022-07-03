@@ -74,32 +74,32 @@ const SocialSection = () => {
 
 						<ul className="flex gap-4 md:hidden">
 							<li className="mb-4 hover:scale-110">
-								<Link href="https://discord.com/invite/TRvJvgfMbb">
-									<a className="text-primary text-[25px]">
-										<FaDiscord />
-									</a>
-								</Link>
+								<a
+									className="text-primary text-[25px]"
+									href="https://discord.com/invite/TRvJvgfMbb">
+									<FaDiscord />
+								</a>
 							</li>
 							<li className="mb-4 hover:scale-110">
-								<Link href="https://www.instagram.com/_cqnetwork_/">
-									<a className="text-primary text-[25px]">
-										<AiFillInstagram />
-									</a>
-								</Link>
+								<a
+									className="text-primary text-[25px]"
+									href="https://www.instagram.com/_cqnetwork_/">
+									<AiFillInstagram />
+								</a>
 							</li>
 							<li className="mb-4 hover:scale-110">
-								<Link href="https://t.me/CQNCOFFICIAL">
-									<a className="text-primary text-[25px]">
-										<FaTelegramPlane />
-									</a>
-								</Link>
+								<a
+									className="text-primary text-[25px]"
+									href="https://t.me/CQNCOFFICIAL">
+									<FaTelegramPlane />
+								</a>
 							</li>
 							<li className="mb-4 hover:scale-110">
-								<Link href="https://twitter.com/_cqnetwork_">
-									<a className="text-primary text-[25px]">
-										<AiOutlineTwitter />
-									</a>
-								</Link>
+								<a
+									className="text-primary text-[25px]"
+									href="https://twitter.com/_cqnetwork_">
+									<AiOutlineTwitter />
+								</a>
 							</li>
 						</ul>
 					</div>
