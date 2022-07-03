@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import Logo from "../assets/illustrations/min-logo.png";
-import MinLogo from "../assets/illustrations/mobile-logo.png";
 import PrimaryButton from "../buttons/PrimaryButton";
 import { GlobeIcon } from "../assets/Globe";
 import { ReactCountryFlag } from "react-country-flag";
@@ -120,13 +119,15 @@ const Header = () => {
 				<div className="flex items-center justify-end gap-3">
 					<PrimaryButton
 						className="hover:bg-primary hover:text-white text-primary px-4 py-2 rounded-lg 
-				border-primary border shadow-lg transition-colors duration-300">
+				border-primary border shadow-lg transition-colors duration-300"
+						onClick={() => router.push("/wallet")}>
 						Wallet
 					</PrimaryButton>
 
 					<PrimaryButton
 						className="hover:bg-white hover:text-primary text-white bg-primary px-4 py-2 rounded-lg 
-				border-primary border shadow-lg transition-colors duration-300">
+				border-primary border shadow-lg transition-colors duration-300"
+						onClick={() => router.push("/presale")}>
 						Buy CQNC
 					</PrimaryButton>
 				</div>

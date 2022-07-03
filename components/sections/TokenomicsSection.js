@@ -57,13 +57,17 @@ const TokenomicsSection = () => {
 						</p>
 						<p className="flex items-center justify-around gap-2">
 							{" "}
-							<GrCheckbox className="bg-[#FFCE56]" /> 15% Team &
-							Development
+							<GrCheckbox className="bg-[#FFCE56]" /> 12% Staking
+							& Rewards
 						</p>
 						<p className="flex items-center justify-around gap-2">
 							{" "}
-							<GrCheckbox className="bg-[#A7F432]" /> 15% Founders
-							Board
+							<GrCheckbox className="bg-[#A7F432]" /> 3% Charity
+						</p>
+						<p className="flex items-center justify-around gap-2">
+							{" "}
+							<GrCheckbox className="bg-[#f4b732]" /> 15% Team &
+							Development
 						</p>
 					</div>
 				</div>

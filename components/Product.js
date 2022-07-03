@@ -68,7 +68,8 @@ const Product = () => {
 					<PrimaryButton
 						className="hover:bg-white hover:text-primary text-white bg-primary 
                                 px-4 py-2 rounded-lg border-primary border shadow-lg 
-                                transition-colors duration-300 mt-8">
+                                transition-colors duration-300 mt-8"
+						onClick={() => router.push("/wallet")}>
 						Get Started
 					</PrimaryButton>
 				</div>

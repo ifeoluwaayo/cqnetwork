@@ -1,7 +1,11 @@
 import React from "react";
 
 const presale = () => {
-	return <div>presale</div>;
+	return (
+		<div>
+			<h1>Presale</h1>
+		</div>
+	);
 };
 
 export default presale;

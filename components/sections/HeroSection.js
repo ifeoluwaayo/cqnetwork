@@ -4,8 +4,11 @@ import globoCrypto from "../../assets/illustrations/qscd.png";
 import PrimaryButton from "../../buttons/PrimaryButton";
 import { FaAngleRight } from "react-icons/fa";
 import Typical from "react-typical";
+import { useRouter } from "next/router";
 
 const HeroSection = () => {
+	const router = useRouter();
+
 	return (
 		<section
 			className="bg-primary bg-opacity-5 py-10 md:h-auto h-[80vh]"
@@ -71,7 +74,8 @@ const HeroSection = () => {
 							<PrimaryButton
 								className="hover:bg-white hover:text-primary text-white bg-primary 
                                 px-4 py-2 rounded-lg border-primary border shadow-lg 
-                                transition-colors duration-300">
+                                transition-colors duration-300"
+								onClick={() => router.push("/presale")}>
 								Buy CQNC
 							</PrimaryButton>
 

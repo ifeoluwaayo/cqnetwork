@@ -5,12 +5,30 @@ import { Chart as ChartJs, Tooltip, Title, ArcElement, Legend } from "chart.js";
 ChartJs.register(Tooltip, Title, ArcElement, Legend);
 
 const data = {
-	labels: ["Presale", "Liquidity", "Team & Developers", "Founders Board"],
+	labels: [
+		"Presale",
+		"Liquidity",
+		"Staking & Rewards",
+		"Charity",
+		"Team & Development",
+	],
 	datasets: [
 		{
-			data: [35, 35, 15, 15],
-			backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56", "#A7F432"],
-			hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56", "#A7F432"],
+			data: [35, 35, 12, 3, 15],
+			backgroundColor: [
+				"#FF6384",
+				"#36A2EB",
+				"#FFCE56",
+				"#A7F432",
+				"#f4b732",
+			],
+			hoverBackgroundColor: [
+				"#FF6384",
+				"#36A2EB",
+				"#FFCE56",
+				"#A7F432",
+				"#f4b732",
+			],
 		},
 	],
 };

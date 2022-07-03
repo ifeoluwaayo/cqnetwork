@@ -73,38 +73,30 @@ const SocialSection = () => {
 						</div>
 
 						<ul className="flex gap-4 md:hidden">
-							<li className="mb-4">
+							<li className="mb-4 hover:scale-110">
 								<Link href="https://discord.com/invite/TRvJvgfMbb">
-									<a
-										href=""
-										className="text-primary text-[25px]">
+									<a className="text-primary text-[25px]">
 										<FaDiscord />
 									</a>
 								</Link>
 							</li>
-							<li className="mb-4">
+							<li className="mb-4 hover:scale-110">
 								<Link href="https://www.instagram.com/_cqnetwork_/">
-									<a
-										href=""
-										className="text-primary text-[25px]">
+									<a className="text-primary text-[25px]">
 										<AiFillInstagram />
 									</a>
 								</Link>
 							</li>
-							<li className="mb-4">
+							<li className="mb-4 hover:scale-110">
 								<Link href="https://t.me/CQNCOFFICIAL">
-									<a
-										href=""
-										className="text-primary text-[25px]">
+									<a className="text-primary text-[25px]">
 										<FaTelegramPlane />
 									</a>
 								</Link>
 							</li>
-							<li className="mb-4">
+							<li className="mb-4 hover:scale-110">
 								<Link href="https://twitter.com/_cqnetwork_">
-									<a
-										href=""
-										className="text-primary text-[25px]">
+									<a className="text-primary text-[25px]">
 										<AiOutlineTwitter />
 									</a>
 								</Link>

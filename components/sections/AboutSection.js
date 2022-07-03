@@ -76,7 +76,7 @@ const AboutSection = () => {
 							CQD
 						</h3>
 						<p className="text-[14px] text-gray">
-							The Exchange of the CQ Network
+							The Exchange Token of the CQ Network
 						</p>
 					</div>
 					<div
