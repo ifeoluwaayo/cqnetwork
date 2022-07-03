@@ -5,8 +5,11 @@ import Buy from "../assets/illustrations/buy.png";
 import Bank from "../assets/illustrations/banknew.png";
 import Pay from "../assets/illustrations/cpay.png";
 import PrimaryButton from "../buttons/PrimaryButton";
+import { useRouter } from "next/router";
 
 const Product = () => {
+	const router = useRouter();
+
 	return (
 		<div className="flex flex-col gap-10">
 			{/* CQ Pay */}

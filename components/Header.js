@@ -117,19 +117,19 @@ const Header = () => {
 				</div>
 
 				<div className="flex items-center justify-end gap-3">
-					<PrimaryButton
+					<button
 						className="hover:bg-primary hover:text-white text-primary px-4 py-2 rounded-lg 
 				border-primary border shadow-lg transition-colors duration-300"
 						onClick={() => router.push("/wallet")}>
 						Wallet
-					</PrimaryButton>
+					</button>
 
-					<PrimaryButton
+					<button
 						className="hover:bg-white hover:text-primary text-white bg-primary px-4 py-2 rounded-lg 
 				border-primary border shadow-lg transition-colors duration-300"
 						onClick={() => router.push("/presale")}>
 						Buy CQNC
-					</PrimaryButton>
+					</button>
 				</div>
 			</div>
 
@@ -143,15 +143,17 @@ const Header = () => {
 						className={`${
 							dropdownOpen ? "hidden" : ""
 						} hover:bg-white hover:text-primary text-white bg-primary px-4 py-2 rounded-lg 
-				border-primary border shadow-lg transition-colors duration-300`}>
+				border-primary border shadow-lg transition-colors duration-300`}
+						onClick={() => router.push("/wallet")}>
 						Wallet
 					</PrimaryButton>
 					<PrimaryButton
 						className={`${
 							dropdownOpen ? "hidden" : ""
 						} hover:bg-primary hidden md:block hover:text-white text-primary px-4 py-2 rounded-lg 
-				border-primary border shadow-lg transition-colors duration-300`}>
-						Buy CQ
+				border-primary border shadow-lg transition-colors duration-300`}
+						onClick={() => router.push("/presale")}>
+						Buy CQNC
 					</PrimaryButton>
 
 					<div
@@ -176,12 +178,14 @@ const Header = () => {
 						<div className="gap-4 flex items-center justify-around mb-6">
 							<PrimaryButton
 								className="hover:bg-white hover:text-primary text-white bg-primary px-4 py-2 rounded-lg 
-				border-primary border shadow-lg transition-colors duration-300">
+				border-primary border shadow-lg transition-colors duration-300"
+								onClick={() => router.push("/wallet")}>
 								Wallet
 							</PrimaryButton>
 							<PrimaryButton
 								className="hover:bg-primary hover:text-white text-primary px-4 py-2 rounded-lg 
-				border-primary border shadow-lg transition-colors duration-300">
+				border-primary border shadow-lg transition-colors duration-300"
+								onClick={() => router.push("/presale")}>
 								Buy CQNC
 							</PrimaryButton>
 						</div>
